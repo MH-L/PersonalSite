@@ -1,0 +1,82 @@
+h1 {
+	font-family: 'Big Caslon', 'Book Antiqua', 'Palatino Linotype', Georgia, serif;
+	font-size: 39px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 42.9000015258789px;
+}
+
+h3 {
+	font-family: 'Big Caslon', 'Book Antiqua', 'Palatino Linotype', Georgia, serif;
+	font-size: 25px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 27.5px;
+}
+
+p#myName {
+	font-family: 'Big Caslon', 'Book Antiqua', 'Palatino Linotype', Georgia, serif;
+	font-size: 65px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 70px;
+	margin-top: 0.3em;
+	margin-bottom: 0em;
+}
+
+p#descriptive {
+	font-family: Consolas, monaco, monospace;
+	font-size: 22px;
+	line-height: 23.76px;
+}
+
+div#nameDiv {
+	text-align: center;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	height: 90px;
+}	
+
+div#descriptDiv {
+	text-align: center;
+	position: absolute;
+	height: 35px;
+	width: 100%;
+	top: 90px;
+}
+
+div#marqueeDiv {
+	position: absolute;
+	height: 40px;
+	width: 100%;
+	top: 120px;
+}
+
+div#maintanenceDiv {
+	text-align: center;
+	position: absolute;
+	height: 50px;
+	width: 100%;
+	top: 60%;
+}
+
+div#buttonsDiv {
+	position: absolute;
+	height: 40px;
+	width: 100%;
+	top: 30%;
+}
+
+button.greeting {
+	height: 30px;
+	width: 12%;
+	font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+	font-size: 16px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
