@@ -2,31 +2,113 @@
 <head>
 <title>Minghao Liu -- Software Developer</title>
 <link rel=stylesheet href="CSS1.css" type="text/css" />
-</head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script type="text/javascript">
 	function onClickGreeting() {
-		window.alert("LXZ I love you!");
+		window.alert("Welcome! Bienvenue!");
 	}
+
+	function anotherOnClick() {
+		window.alert("Welcome! My name is Minghao Liu.");
+	}
+
+	function specialFunc() {
+		for (var i = 1; i < 1000000000; i++) {}
+		sleep(1);
+		window.location.reload();
+	}
+
+	function sleep(seconds) {
+	  var e = new Date().getTime() + (seconds * 1000);
+	  while (new Date().getTime() <= e) {}
+	}
+
+	$( document ).ready(function() {
+		 var hashTagActive = "";
+		    $(".insideCell").click(function (event) {
+		            event.preventDefault();
+		            //calculate destination place
+		            var dest = 0;
+		            if ($(this.hash).offset().top > $(document).height() - $(window).height()) {
+		                dest = $(document).height() - $(window).height();
+		            } else {
+		                dest = $(this.hash).offset().top;
+		            }
+		            //go to destination
+		            $('html,body').animate({
+		                scrollTop: dest
+		            }, 1000, 'swing');
+		            hashTagActive = this.hash;
+		       
+		    });
+	});
 </script>
+</head>
 <body>
+	<div class="box hidden"> <a id="top2"> &nbsp; </a> </div>
 	<div id="nameDiv" align="middle">
 		<p id="myName"> Minghao Liu </p>
 	</div>
 	<div id="descriptDiv">
 		<p id="descriptive"> printf("Student, software developer."); </p>
+		<hr/>
 	</div>
-</body>
-<div id="marqueeDiv">
-<marquee> <h2> <font face="segoe ui" size="6"> Welcome to my website!</font></h2> </marquee>
-<hr/>
-</div>
+	<div class="profileDiv" id="profile1">
+		<a id="anchor0"> &nbsp; </a>
+		<div class="aboutme">
+			<center> <p class="subTitle"> About Me </p>
+			</center>
+			<center> <p class="selfIntro">
+				&nbsp;&nbsp;&nbsp;&nbsp;I am Minghao Liu (Kelvin), a 21-year-old student in Vancouver, BC, Canada. 
+				I am currently a third year student at the University of British Columbia. 
+				I am in a double major program in Computer Science and math. My main focus within 
+				computer science is software development, but I am also interested in data analysis and system construction.
+			</p>
+		</center>
+		</div>
+		<div class="contactsDiv">
+		</div>
+	</div>
+	<div class="projectsDiv" id="projects111">
+		<a id="anchor1"> &nbsp; </a>
+		<div class="firstCol">
+		</div>
+		<div class="secondCol">
+		</div>
+	</div>
+	<div class="educationDiv">
+		<a id="anchor2"> &nbsp; </a>
+	</div>
+	<div class="experienceDiv">
+		<a id="anchor3"> &nbsp; </a>
+	</div>
+	<div class="copyrightDiv">
+		<a id="anchor4"> &nbsp; </a>
+	</div>
+	<div id="sidebar">
+	</div>
+		<div id="topbar">
+			<ul class="insideTopBar">
+				<li class="topBar"> <p class="insideCellp"> <a class="insideCell" id="insideCell1" href="a#top2"> Top </a> </p> </li>
+				<li class="topBar"> <p class="insideCellp"> <a class="insideCell" id="insideCell2" href="a#anchor1"> Projects </a> </p> </li>
+				<li class="topBar"> <p class="insideCellp"> <a class="insideCell" id="insideCell3" href="a#anchor0"> Profile </a> </p> </li>
+				<li class="topBar"> <p class="insideCellp"> <a class="insideCell" id="insideCell4" href="a#anchor2"> Education </a> </p> </li>
+				<li class="topBar"> <p class="insideCellp"> <a class="insideCell" id="insideCell5" href="a#anchor3"> Experience </a> </p> </li>
+				<li class="topBar"> <p class="insideCellp"> <a class="insideCell" id="insideCell6" href="a#anchor4"> Contacts </a> </p> </li>
+				<li class="topBar"> <p class="insideCellp"> <a class="specialLink" id="insideCell7" href="javascript:void(0);" onclick="specialFunc();"> Game </a> </p> </li>
+				<li class="topBar"> <p class="insideCellp"> <a class="insideCell" id="insideCell8" href="a#anchor5"> Bottom </a> </p> </li>
+			</ul>
+		</div>
+
 <div id="maintanenceDiv">
-<h3> <font face="big caslon" size="5"> The site is under maintenance. Sorry for the inconvenience. </font> </h3>
+<h3> <p class="mat"> The site is under maintenance. Sorry for the inconvenience. </p> </h3>
 </div>
 <div id="buttonsDiv">
 	<center>
 <button class="greeting" value="Hello!" onclick="onClickGreeting();">Hello!</button>
-<button class="greeting" value="hello" onclick="onClickGreeting();">hello</button>
+<button class="greeting" value="hello" onclick="anotherOnClick();">hello</button>
 	</center>
 </div>
+<a id="anchor5"> &nbsp; </a>
+</body>
 </html>

@@ -1,3 +1,8 @@
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
 h1 {
 	font-family: 'Big Caslon', 'Book Antiqua', 'Palatino Linotype', Georgia, serif;
 	font-size: 39px;
@@ -14,6 +19,24 @@ h3 {
 	font-variant: normal;
 	font-weight: 500;
 	line-height: 27.5px;
+}
+
+p.insideCellp {
+	margin-top:0em;
+	margin-bottom:0em;
+	font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+	font-size: 24px;
+	color: #ffffff;
+	line-height: 30px;
+}
+
+p.subTitle {
+	font-family: 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', 
+		Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
+	margin-top:1.2em;
+	margin-bottom: 1.2em;
+	font-size: 24px;
+	color: #000000;
 }
 
 p#myName {
@@ -35,40 +58,36 @@ p#descriptive {
 
 div#nameDiv {
 	text-align: center;
-	position: absolute;
-	top: 0px;
-	width: 100%;
-	height: 90px;
+	margin: 50px;
 }	
 
 div#descriptDiv {
 	text-align: center;
-	position: absolute;
+	
 	height: 35px;
 	width: 100%;
-	top: 90px;
+	top: 110px;
 }
 
 div#marqueeDiv {
-	position: absolute;
+	
 	height: 40px;
 	width: 100%;
-	top: 120px;
+	top: 140px;
 }
 
 div#maintanenceDiv {
 	text-align: center;
-	position: absolute;
+	
 	height: 50px;
 	width: 100%;
 	top: 60%;
 }
 
 div#buttonsDiv {
-	position: absolute;
 	height: 40px;
 	width: 100%;
-	top: 30%;
+	top: 33%;
 }
 
 button.greeting {
@@ -79,4 +98,153 @@ button.greeting {
 	margin-top: 10px;
 	margin-right: 10px;
 	margin-left: 10px;
+}
+
+div#topbar {
+	position: fixed;
+	background-color: #191970;
+	width: 100%;
+	overflow-y: auto;
+	top: 0;
+	left: 0;
+}
+
+div.topbarCell {
+	text-align: center;
+	height: 30px;
+	width: 12%;
+	position: relative;
+	display: inline-block;
+}
+
+ul.insideTopBar {
+	display: inline-block;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+li.topBar {
+	display: inline-block;
+	text-align: center;
+	width: 12%;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+p.mat {
+	line-height: 40px;
+	margin-top: 0.4em;
+	margin-bottom: 0.4em;
+	font-family: Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
+	font-size: 23px;
+}
+
+p.selfIntro {
+	font-family: 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', 
+		Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
+		padding-left: 18%;
+		padding-right: 18%;
+		text-align: left;
+	margin-top:1.4em;
+	margin-bottom: 1.4em;
+	font-size: 16px;
+	color: #000000;
+}
+
+div.profileDiv {
+	width:100%;
+	height:45%;
+	background-color: #fff0f5;
+}
+
+div.aboutme {
+	width: 50%;
+	float: left;
+	display: inline-block;
+}
+
+div.contacts {
+	margin-left: 50%;
+	width: 50%;
+	height:100%;
+	display: inline-block;
+}
+
+div.projectsDiv {
+	width: 100%;
+	height: 45%;
+	display: inline-block;
+	background-color: #afeeee;
+}
+
+div.copyrightDiv {
+	width: 100%;
+	height: 45%;
+	display: inline-block;
+	background-color: #f0fff0;
+}
+
+div.box.hidden {
+	visibility: hidden;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+a.insideCell {
+	color: #ffffff;
+	text-decoration: none;
+	transition: 1s;
+}
+
+a.insideCell:hover {
+	text-decoration: overline;
+}
+
+#insideCell2:hover {
+	color: #ff00ff;
+}
+
+#insideCell1:hover {
+	color: #00ff00;
+}
+
+#insideCell3:hover {
+	color: #0000ff;
+}
+
+#insideCell4:hover {
+	color: #ff0000;
+}
+
+#insideCell5:hover {
+	color: #00ffff;
+}
+
+#insideCell6:hover {
+	color: #ffff00;
+}
+
+#insideCell7:hover {
+	color: #8a2be2;
+}
+
+#insideCell8:hover {
+	color: #adff2f;
+}
+
+a.specialLink {
+	color: #ffffff;
+	text-decoration: none;
+	cursor: text;
+	transition: 1s;
+}
+
+a.specialLink:hover {
+	color: #ffffff;
+	text-decoration: overline;
+	cursor: text;
 }
