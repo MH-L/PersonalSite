@@ -24,28 +24,15 @@
 	}
 
 	$( document ).ready(function() {
-		 var hashTagActive = "";
-		    $(".insideCell").click(function (event) {
-		            event.preventDefault();
-		            //calculate destination place
-		            var dest = 0;
-		            if ($(this.hash).offset().top > $(document).height() - $(window).height()) {
-		                dest = $(document).height() - $(window).height();
-		            } else {
-		                dest = $(this.hash).offset().top;
-		            }
-		            //go to destination
-		            $('html,body').animate({
-		                scrollTop: dest
-		            }, 1000, 'swing');
-		            hashTagActive = this.hash;
-		       
-		    });
+		    $(".insideCell").click(function (event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
+			});
 	});
 </script>
 </head>
 <body>
-	<div class="box hidden"> <a id="top2"> &nbsp; </a> </div>
+	<div class="box hidden"> <a id="top2"> </a> </div>
 	<div id="nameDiv" align="middle">
 		<p id="myName"> Minghao Liu </p>
 	</div>
@@ -54,6 +41,9 @@
 		<hr/>
 	</div>
 	<div class="profileDiv" id="profile1">
+		<div class="subheader">
+			<span> <p class="mainTitle"> Profile </p> </span>
+		</div>
 		<a id="anchor0"> &nbsp; </a>
 		<div class="aboutme">
 			<center> <p class="subTitle"> About Me </p>
@@ -70,20 +60,20 @@
 		</div>
 	</div>
 	<div class="projectsDiv" id="projects111">
-		<a id="anchor1"> &nbsp; </a>
+		<a id="anchor1"> </a>
 		<div class="firstCol">
 		</div>
 		<div class="secondCol">
 		</div>
 	</div>
 	<div class="educationDiv">
-		<a id="anchor2"> &nbsp; </a>
+		<a id="anchor2"> </a>
 	</div>
 	<div class="experienceDiv">
-		<a id="anchor3"> &nbsp; </a>
+		<a id="anchor3"> </a>
 	</div>
 	<div class="copyrightDiv">
-		<a id="anchor4"> &nbsp; </a>
+		<a id="anchor4">  </a>
 	</div>
 	<div id="sidebar">
 	</div>
@@ -109,6 +99,6 @@
 <button class="greeting" value="hello" onclick="anotherOnClick();">hello</button>
 	</center>
 </div>
-<a id="anchor5"> &nbsp; </a>
+<a id="anchor5"> </a>
 </body>
 </html>

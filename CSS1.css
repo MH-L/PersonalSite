@@ -78,7 +78,6 @@ div#marqueeDiv {
 
 div#maintanenceDiv {
 	text-align: center;
-	
 	height: 50px;
 	width: 100%;
 	top: 60%;
@@ -154,9 +153,18 @@ p.selfIntro {
 	color: #000000;
 }
 
+p.mainTitle {
+	font-family: 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', 
+		Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
+		margin-top: 2em;
+		margin-bottom: 2em;
+		font-size: 30px;
+		text-align: middle;
+}
+
 div.profileDiv {
 	width:100%;
-	height:45%;
+	height: 70%;
 	background-color: #fff0f5;
 }
 
@@ -187,11 +195,34 @@ div.copyrightDiv {
 	background-color: #f0fff0;
 }
 
+div.educationDiv {
+	width:100%;
+	height: 45%;
+	display: inline-block;
+	background-color: #e0ffff;
+}
+
+div.experienceDiv {
+	width: 100%;
+	height: 45%;
+	display: inline-block;
+	background-color: #ffddff;
+}
+
 div.box.hidden {
 	visibility: hidden;
 	position: absolute;
 	top: 0px;
 	right: 0px;
+}
+
+div.subheader {
+	width:100%;
+	text-align: middle;
+	background-color: #fff0f5;
+	font-family: 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', 
+		Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
+		font-size: 30px;
 }
 
 a.insideCell {
@@ -247,4 +278,19 @@ a.specialLink:hover {
 	color: #ffffff;
 	text-decoration: overline;
 	cursor: text;
+}
+
+button {
+	border-radius: 2px;
+}
+
+button:hover {
+	opacity: 0.4;
+	transition: 1s;
+	font-family: Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
+}
+
+span {
+	display: table;
+	margin: 0 auto;
 }
