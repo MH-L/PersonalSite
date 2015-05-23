@@ -39,6 +39,18 @@ p.subTitle {
 	color: #000000;
 }
 
+p.subTitle.aboutme {
+	margin-top: 2em;
+}
+
+p.subTitle.links {
+	margin-top: 2em;
+	margin-bottom: 1.8em;
+}
+
+p.subTitle.other {
+	margin-top: 1.7em;
+}
 p#myName {
 	font-family: 'Big Caslon', 'Book Antiqua', 'Palatino Linotype', Georgia, serif;
 	font-size: 65px;
@@ -53,7 +65,8 @@ p#myName {
 p#descriptive {
 	font-family: Consolas, monaco, monospace;
 	font-size: 22px;
-	line-height: 23.76px;
+	line-height: 10px;
+	margin-bottom: 2em;
 }
 
 div#nameDiv {
@@ -78,7 +91,7 @@ div#marqueeDiv {
 
 div#maintanenceDiv {
 	text-align: center;
-	height: 50px;
+	height: 20%;
 	width: 100%;
 	top: 60%;
 }
@@ -87,6 +100,11 @@ div#buttonsDiv {
 	height: 40px;
 	width: 100%;
 	top: 33%;
+}
+
+div.emptyDiv {
+	width: 100%;
+	height: 20px;
 }
 
 button.greeting {
@@ -116,6 +134,21 @@ div.topbarCell {
 	display: inline-block;
 }
 
+div.socialLogoDiv {
+	display: table;
+	margin: auto;
+	vertical-align: middle;
+	overflow: hidden;
+}
+
+div.otherContacts {
+	/*position: absolute;
+	right: 0;*/
+	text-align: center;
+	/*width: 50%;
+	top: 100%;*/
+}
+
 ul.insideTopBar {
 	display: inline-block;
 	width: 100%;
@@ -141,7 +174,7 @@ p.mat {
 	font-size: 23px;
 }
 
-p.selfIntro {
+ul.additionalNotes li p, p.selfIntro {
 	font-family: 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', 
 		Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
 		padding-left: 18%;
@@ -153,58 +186,82 @@ p.selfIntro {
 	color: #000000;
 }
 
+ul.additionalNotes {
+	list-style-type: none;
+}
+
 p.mainTitle {
 	font-family: 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', 
 		Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
 		margin-top: 2em;
-		margin-bottom: 2em;
+		margin-bottom: 0.8em;
 		font-size: 30px;
 		text-align: middle;
 }
 
+p.otherContPara {
+	font-family: 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', 
+		Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
+		margin-top: 0.3em;
+		margin-bottom: 0.8em;
+		font-size: 19px;
+		text-align: middle;
+}
+
+p.otherContPara img {
+	height: 1em;
+}
+
+div.emailPhone {
+	text-align: left;
+	margin-left: 25%;
+}
+
 div.profileDiv {
-	width:100%;
-	height: 70%;
+	width: 100%;
 	background-color: #fff0f5;
+	display: block;
+	float: left;
 }
 
 div.aboutme {
 	width: 50%;
 	float: left;
-	display: inline-block;
+	overflow: hidden;
+	background-color: rgba(0,0,0,0);
 }
 
-div.contacts {
-	margin-left: 50%;
+div.contactsDiv {
 	width: 50%;
-	height:100%;
-	display: inline-block;
+	float: left;
+	overflow: hidden;
+	height: 70%;
 }
 
-div.projectsDiv {
+div.technicalDiv {
 	width: 100%;
-	height: 45%;
+	height: 90%;
 	display: inline-block;
 	background-color: #afeeee;
 }
 
-div.copyrightDiv {
+div.experienceDiv {
 	width: 100%;
-	height: 45%;
+	height: 70%;
 	display: inline-block;
 	background-color: #f0fff0;
 }
 
-div.educationDiv {
+div.projectsDiv {
 	width:100%;
-	height: 45%;
+	height: 70%;
 	display: inline-block;
 	background-color: #e0ffff;
 }
 
-div.experienceDiv {
+div.educationDiv {
 	width: 100%;
-	height: 45%;
+	height: 70%;
 	display: inline-block;
 	background-color: #ffddff;
 }
@@ -219,10 +276,18 @@ div.box.hidden {
 div.subheader {
 	width:100%;
 	text-align: middle;
-	background-color: #fff0f5;
+	background-color: rgba(0,0,0,0);
 	font-family: 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', 
 		Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
 		font-size: 30px;
+}
+
+div.insideAboutMe {
+	margin: 0 auto;
+}
+
+a {
+	outline: 0;
 }
 
 a.insideCell {
@@ -293,4 +358,46 @@ button:hover {
 span {
 	display: table;
 	margin: 0 auto;
+}
+
+div.ssspecial {
+	visibility: hidden;
+	height: 25px;
+	width:25px;
+}
+
+div.projectsCard {
+
+}
+
+div.zOne {
+	z-index: 100;
+	position: relative;
+}
+
+div.zTwo {
+	z-index: 200;
+	position: relative;
+}
+
+#logoTable {
+	padding: 0px;
+	margin: 0px;
+	border-collapse: collapse;
+}
+
+#logoTable td {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+img {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+hr {
+	width: 50%;
 }

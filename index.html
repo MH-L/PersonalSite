@@ -28,6 +28,29 @@
 				event.preventDefault();
 				$('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
 			});
+
+			var pressTimer = 0;
+
+			$(".verySpecial").click(function() { return false;});
+			$(".verySpecial").mouseup(function(){
+			  clearTimeout(pressTimer);
+			  // Clear timeout
+			  return false;
+			}).mousedown(function(){
+			  // Set timeout
+			  pressTimer = window.setTimeout(function() { window.alert("kkk");},3000);
+			  return false; 
+			});
+
+			$('.resizableImg').hover(makeBigger, returnToOriginalSize);
+
+			function makeBigger() {
+			    $(this).stop(true, true).animate({height: '+=10px', width: '+=10px'}, 500);
+			}
+			function returnToOriginalSize() {
+			    $(this).stop(true, true).animate({height: "-=10px", width: "-=10px"}, 500);
+			}
+
 	});
 </script>
 </head>
@@ -38,67 +61,148 @@
 	</div>
 	<div id="descriptDiv">
 		<p id="descriptive"> printf("Student, software developer."); </p>
-		<hr/>
 	</div>
+	<div class="emptyDiv"> </div>
 	<div class="profileDiv" id="profile1">
+		<a id="anchor0"> </a>
 		<div class="subheader">
-			<span> <p class="mainTitle"> Profile </p> </span>
+			<span> <p class="mainTitle"> Profile </p> </span> <hr/>
 		</div>
-		<a id="anchor0"> &nbsp; </a>
-		<div class="aboutme">
-			<center> <p class="subTitle"> About Me </p>
-			</center>
-			<center> <p class="selfIntro">
-				&nbsp;&nbsp;&nbsp;&nbsp;I am Minghao Liu (Kelvin), a 21-year-old student in Vancouver, BC, Canada. 
-				I am currently a third year student at the University of British Columbia. 
-				I am in a double major program in Computer Science and math. My main focus within 
-				computer science is software development, but I am also interested in data analysis and system construction.
-			</p>
-		</center>
+			<div class="aboutme">
+				<center> <p class="subTitle aboutme"> About Me </p>
+				</center>
+				<center> 
+					<p class="selfIntro">
+						&nbsp;&nbsp;&nbsp;&nbsp;I am Minghao Liu (Kelvin), a 21-year-old student in Vancouver, BC, Canada. 
+						I am currently a third year student at the University of British Columbia. 
+						I am in a double major program in Computer Science and math. My main focus within 
+						computer science is software development, but I am also interested in data analysis and system construction.
+					</p>
+				</center>
+			    <p class="selfIntro"> In addition: </p>
+			    <div class="insideAboutMe">
+				    <center>
+					    <ul class="additionalNotes">
+					    	<li> <p> &#x2022;&nbsp;&nbsp;&nbsp;I can speak Chinese and English fluently. </p> </li>
+					    	<li> <p> &#x2022;&nbsp;&nbsp;&nbsp;I have special artistic perspective, this is why the website seems different. </p> </li>
+					    	<li> <p> &#x2022;&nbsp;&nbsp;&nbsp;I am good at things which require deep comprehension, while bad at things which require much memorization. However,
+					    	this does not mean I have poor memory. I am just more into deep things. </p> </li>
+					    	<li> <p> &#x2022;&nbsp;&nbsp;&nbsp;I am not quite sociable. I prefer staying alone once in a while. </p> </li>
+					    	<li> <p> &#x2022;&nbsp;&nbsp;&nbsp;The reason why I made this area pink is simply because the color is called "Lavender Blush". </p> </li>
+					    	<li> <p> &#x2022;&nbsp;&nbsp;&nbsp;If you check the source code, you will find it pretty messy. There is no need for explanation. </p> </li>
+					    	<li> <p> &nbsp; </p> </li>
+					    	<li> <p> &nbsp; </p> </li>
+					    </ul>
+					</center>
+				</div>
+			</div>
+			<div class="aboutme">
+				<center> <p class="subTitle links"> Links </p> </center>
+				<div class="socialLogoDiv">
+					<table id="logoTable">
+						<tr>
+							<td> <a href="http://www.github.com/MH-L"> <img src="social_logos/github_logo.jpg" alt="GitHub" 
+								class="resizableImg" /> </a> </td>
+							<td> <a href="http://ca.linkedin.com/in/922lmh922"> <img src="social_logos/linkedin_logo.png" alt="LinkedIn" 
+								class="resizableImg" /> </a> </td>
+							<td> <a href="http://www.facebook.com/minghao.liu.73"> <img src="social_logos/facebook_logo.png"
+							alt="Facebook" class="resizableImg" /> </a> </td>
+							<td> <a href="http://www.renren.com/465809781/profile"> <img src="social_logos/renren.jpg" alt="RenRen" 
+								class="resizableImg"/> </a> </td>
+						</tr>
+						<tr>
+							<td> <a href="http://plus.google.com/u/0/100540271700293084255/"> <img src="social_logos/google2.jpg"
+							alt="Google Plus" class="resizableImg" /> </a> </td>
+							<td> <a href="http://www.weibo.com/u/3207557532"> <img src="social_logos/weibo_logo.gif" 
+							alt="Sina Weibo" class="resizableImg" /> </a> </td>
+							<td> <a href="http://ca.yahoo.com/"> <img src="social_logos/yahoo_logo.jpg" alt="Yahoo" 
+								class="resizableImg" /> </a> </td>
+							<td> <a href="https://twitter.com/922lmh922"> <img src="social_logos/twitter_logo.png" alt="Twitter"
+								class="resizableImg" /> </a> </td>
+						</tr>
+					</table>
+				</div>
+				<div class="otherContacts">
+					<center> <p class="subTitle other"> Other </p> </center>
+					<div class="emailPhone">
+						<p class="otherContPara"> <img src="social_logos/email_flat.png" alt="Email Address" /> &nbsp;&nbsp;&nbsp; Primary Email: 922lmh922@gmail.com </p>
+						<p class="otherContPara"> <img src="social_logos/alt_email_flat.jpg" alt="Alt. Email Address" /> &nbsp;&nbsp;&nbsp; Alternative Email: 966lmh966@gmail.com </p>
+						<p class="otherContPara"> <img src="social_logos/phone_flat.jpg" alt="Telephone" /> &nbsp;&nbsp;&nbsp; Telephone: (+1) 778-389-9010 </p>
+						<p class="otherContPara"> <img src="social_logos/wechat_flat.png" alt="WeChat" /> &nbsp;&nbsp;&nbsp; WeChat: 1309554943 </p>
+						<p class="otherContPara"> <img src="social_logos/qq_flat.jpg" alt="QQ" /> &nbsp;&nbsp;&nbsp; QQ: 1309554943 </p>
+					</div>
+				</div>
+			</div>
+	</div>
+	<div class="technicalDiv" id="projects111">
+		<a id="anchor1"> </a>
+		<div class="subheader">
+			<span> <p class="mainTitle"> Technical </p> </span> <hr/>
 		</div>
-		<div class="contactsDiv">
+		<div class="firstCol">
+		</div>
+		<div class="secondCol">
 		</div>
 	</div>
-	<div class="projectsDiv" id="projects111">
-		<a id="anchor1"> </a>
+	<div class="projectsDiv">
+		<a id="anchor2"> </a>
+		<div class="subheader">
+			<span> <p class="mainTitle"> Projects </p> </span> <hr/>
+		</div>
 		<div class="firstCol">
 		</div>
 		<div class="secondCol">
 		</div>
 	</div>
 	<div class="educationDiv">
-		<a id="anchor2"> </a>
+		<a id="anchor3"> </a>
+		<div class="subheader">
+			<span> <p class="mainTitle"> Education </p> </span> <hr/>
+		</div>
+		<div class="firstCol">
+		</div>
+		<div class="secondCol">
+		</div>
 	</div>
 	<div class="experienceDiv">
-		<a id="anchor3"> </a>
-	</div>
-	<div class="copyrightDiv">
 		<a id="anchor4">  </a>
+		<div class="subheader">
+			<span> <p class="mainTitle"> Experience </p> </span> <hr/>
+		</div>
+		<div class="firstCol">
+		</div>
+		<div class="secondCol">
+		</div>
 	</div>
 	<div id="sidebar">
 	</div>
 		<div id="topbar">
 			<ul class="insideTopBar">
-				<li class="topBar"> <p class="insideCellp"> <a class="insideCell" id="insideCell1" href="a#top2"> Top </a> </p> </li>
-				<li class="topBar"> <p class="insideCellp"> <a class="insideCell" id="insideCell2" href="a#anchor1"> Projects </a> </p> </li>
-				<li class="topBar"> <p class="insideCellp"> <a class="insideCell" id="insideCell3" href="a#anchor0"> Profile </a> </p> </li>
-				<li class="topBar"> <p class="insideCellp"> <a class="insideCell" id="insideCell4" href="a#anchor2"> Education </a> </p> </li>
-				<li class="topBar"> <p class="insideCellp"> <a class="insideCell" id="insideCell5" href="a#anchor3"> Experience </a> </p> </li>
-				<li class="topBar"> <p class="insideCellp"> <a class="insideCell" id="insideCell6" href="a#anchor4"> Contacts </a> </p> </li>
+				<li class="topBar"> <p class="insideCellp"> <a class="insideCell" id="insideCell1" href="#top2"> Top </a> </p> </li>
+				<li class="topBar"> <p class="insideCellp"> <a class="insideCell" id="insideCell2" href="#anchor0"> Profile </a> </p> </li>
+				<li class="topBar"> <p class="insideCellp"> <a class="insideCell" id="insideCell3" href="#anchor1"> Technical </a> </p> </li>
+				<li class="topBar"> <p class="insideCellp"> <a class="insideCell" id="insideCell4" href="#anchor2"> Projects </a> </p> </li>
+				<li class="topBar"> <p class="insideCellp"> <a class="insideCell" id="insideCell5" href="#anchor3"> Education </a> </p> </li>
+				<li class="topBar"> <p class="insideCellp"> <a class="insideCell" id="insideCell6" href="#anchor4"> Experience </a> </p> </li>
 				<li class="topBar"> <p class="insideCellp"> <a class="specialLink" id="insideCell7" href="javascript:void(0);" onclick="specialFunc();"> Game </a> </p> </li>
-				<li class="topBar"> <p class="insideCellp"> <a class="insideCell" id="insideCell8" href="a#anchor5"> Bottom </a> </p> </li>
+				<li class="topBar"> <p class="insideCellp"> <a class="insideCell" id="insideCell8" href="#anchor5"> Bottom </a> </p> </li>
 			</ul>
 		</div>
 
 <div id="maintanenceDiv">
+	<div class="ssspecial"> <a class="verySpecial"> &nbsp;&nbsp;&nbsp;&nbsp;jlfldkajldfjlkdajfljadsljfljsdljdfl</a> </div>
 <h3> <p class="mat"> The site is under maintenance. Sorry for the inconvenience. </p> </h3>
 </div>
+<footer>
 <div id="buttonsDiv">
 	<center>
 <button class="greeting" value="Hello!" onclick="onClickGreeting();">Hello!</button>
 <button class="greeting" value="hello" onclick="anotherOnClick();">hello</button>
 	</center>
 </div>
+<div class="emptyDiv"> </div>
+<div class="emptyDiv"> </div>
+</footer>
 <a id="anchor5"> </a>
 </body>
 </html>
