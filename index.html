@@ -1,7 +1,10 @@
 <html>
 <head>
 <title>Minghao Liu -- Software Developer</title>
-<link rel=stylesheet href="CSS1.css" type="text/css" />
+<link rel="stylesheet" href="misc.css" type="text/css" />
+<link rel="stylesheet" href="allLists.css" type="text/css" />
+<link rel="stylesheet" href="allParas.css" type="text/css" />
+<link rel="stylesheet" href="allDivs.css" type="text/css" />
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script type="text/javascript">
 	function onClickGreeting() {
@@ -55,6 +58,8 @@
 </script>
 </head>
 <body>
+	<div class="emptyDiv"> </div>
+	<div class="emptyDiv"> </div>
 	<div class="box hidden"> <a id="top2"> </a> </div>
 	<div id="nameDiv" align="middle">
 		<p id="myName"> Minghao Liu </p>
@@ -130,9 +135,9 @@
 							<tr> <td> <p class="otherContPara"> <img src="social_logos/email_flat.png" alt="Email Address" /> </p> </td> 
 								<td> <p class="otherContPara"> &nbsp;&nbsp;&nbsp; Primary Email: 922lmh922@gmail.com </p> </td> </tr>
 							<tr> <td> <p class="otherContPara"> <img src="social_logos/alt_email_flat.jpg" alt="Alt. Email Address" /> </p> </td>
-								<td> <p class="otherContPara"> &nbsp;&nbsp;&nbsp; Alternative Email: 966lmh966@gmail.com </p> </td> </tr>
+								<td> <p class="otherContPara"> &nbsp;&nbsp;&nbsp; Alternative Email: ubcproject123@gmail.com </p> </td> </tr>
 							<tr> <td> <p class="otherContPara"> <img src="social_logos/phone_flat.jpg" alt="Telephone" /> </p> </td>
-							    <td> <p class="otherContPara"> &nbsp;&nbsp;&nbsp; Telephone: (+1) 778-389-9010 </p> </td> </tr>
+							    <td> <p class="otherContPara"> &nbsp;&nbsp;&nbsp; Telephone: (+1) 778-379-7670 </p> </td> </tr>
 							<tr> <td> <p class="otherContPara"> <img src="social_logos/wechat_flat.png" alt="WeChat" /> </p> </td>
 								<td> <p class="otherContPara"> &nbsp;&nbsp;&nbsp; WeChat: 1309554943 </p> </td> </tr>
 							<tr> <td> <p class="otherContPara"> <img src="social_logos/qq_flat.jpg" alt="QQ" /> </p> </td>
@@ -260,18 +265,55 @@
 	</div>
 	<div id="sidebar">
 	</div>
-		<div id="topbar">
+	<div id="topbar">
+		<nav class="navMenu">
 			<ul class="insideTopBar">
-				<li class="topBar"> <p class="insideCellp"> <a class="insideCell" id="insideCell1" href="#top2"> Top </a> </p> </li>
-				<li class="topBar"> <p class="insideCellp"> <a class="insideCell" id="insideCell2" href="#anchor0"> Profile </a> </p> </li>
-				<li class="topBar"> <p class="insideCellp"> <a class="insideCell" id="insideCell3" href="#anchor1"> Technical </a> </p> </li>
-				<li class="topBar"> <p class="insideCellp"> <a class="insideCell" id="insideCell4" href="#anchor2"> Projects </a> </p> </li>
-				<li class="topBar"> <p class="insideCellp"> <a class="insideCell" id="insideCell5" href="#anchor3"> Education </a> </p> </li>
-				<li class="topBar"> <p class="insideCellp"> <a class="insideCell" id="insideCell6" href="#anchor4"> Experience </a> </p> </li>
-				<li class="topBar"> <p class="insideCellp"> <a class="specialLink" id="insideCell7" href="javascript:void(0);" onclick="specialFunc();"> Explore </a> </p> </li>
+				<li class="topBar"> <p class="insideCellp"> <a class="insideCell" id="insideCell1" href="#top2"> Top </a> </p> 
+					<ul class="subMenu"> 
+						<li> <p class="insideCellp dropdownPara"> <a class="dropdown1" href="#"> Collapse </a> </p> </li>
+						<li> <p class="insideCellp dropdownPara"> <a class="dropdown1" href="#"> Expand </a> </p> </li>
+					</ul>
+				</li>
+				<li class="topBar"> <p class="insideCellp"> <a class="insideCell" id="insideCell2" href="#anchor0"> Profile </a> </p>
+					<ul class="subMenu"> 
+						<li> <p class="insideCellp dropdownPara"> <a class="dropdown2"  href="#"> Collapse </a> </p> </li>
+						<li> <p class="insideCellp dropdownPara"> <a class="dropdown2"  href="#"> Expand </a> </p> </li>
+					</ul> 
+				</li>
+				<li class="topBar"> <p class="insideCellp"> <a class="insideCell" id="insideCell3" href="#anchor1"> Technical </a> </p>
+					<ul class="subMenu"> 
+						<li> <p class="insideCellp dropdownPara"> <a class="dropdown3" href="#"> Collapse </a> </p> </li>
+						<li> <p class="insideCellp dropdownPara"> <a class="dropdown3" href="#"> Expand </a> </p> </li>
+					</ul>
+				</li>
+				<li class="topBar"> <p class="insideCellp"> <a class="insideCell" id="insideCell4" href="#anchor2"> Projects </a> </p> 
+					<ul class="subMenu"> 
+						<li> <p class="insideCellp dropdownPara"> <a class="dropdown4" href="#"> Collapse </a> </p> </li>
+						<li> <p class="insideCellp dropdownPara"> <a class="dropdown4" href="#"> Expand </a> </p> </li>
+					</ul>
+				</li>
+				<li class="topBar"> <p class="insideCellp"> <a class="insideCell" id="insideCell5" href="#anchor3"> Education </a> </p> 
+					<ul class="subMenu"> 
+						<li> <p class="insideCellp dropdownPara"> <a class="dropdown5" href="#"> Collapse </a> </p> </li>
+						<li> <p class="insideCellp dropdownPara"> <a class="dropdown5" href="#"> Expand </a> </p> </li>
+					</ul>
+				</li>
+				<li class="topBar"> <p class="insideCellp"> <a class="insideCell" id="insideCell6" href="#anchor4"> Experience </a> </p> 
+					<ul class="subMenu"> 
+						<li> <p class="insideCellp dropdownPara"> <a class="dropdown6" href="#"> Collapse </a> </p> </li>
+						<li> <p class="insideCellp dropdownPara"> <a class="dropdown6" href="#"> Expand </a> </p> </li>
+					</ul>
+				</li>
+				<li class="topBar"> <p class="insideCellp"> <a class="specialLink" id="insideCell7" href="javascript:void(0);" onclick="specialFunc();"> Explore </a> </p> 
+					<ul class="subMenu"> 
+						<li> <p class="insideCellp dropdownPara"> <a class="dropdownExtra" href="#"> Games </a> </p> </li>
+						<li> <p class="insideCellp dropdownPara long"> <a class="dropdownExtra"> Project Illustration </a> </p> </li>
+					</ul>
+				</li>
 				<li class="topBar"> <p class="insideCellp"> <a class="insideCell" id="insideCell8" href="#anchor5"> Message </a> </p> </li>
 			</ul>
-		</div>
+		</nav>
+	</div>
 
 <div id="maintanenceDiv">
 	<div class="ssspecial"> <a class="verySpecial"> &nbsp;&nbsp;&nbsp;&nbsp;jlfldkajldfjlkdajfljadsljfljsdljdfl</a> </div>

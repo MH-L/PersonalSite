@@ -1,0 +1,134 @@
+ul.additionalNotes {
+	list-style-type: none;
+}
+
+ul.subMenu {
+	z-index: -1;
+	opacity: 0;
+}
+
+li.topBar:hover .subMenu {
+	z-index: 1;
+	opacity: 1;
+	transition:opacity linear 1s;
+}
+
+a {
+	outline: 0;
+}
+
+a.insideCell {
+	color: #ffffff;
+	text-decoration: none;
+	transition: 1s;
+}
+
+a.insideCell:hover {
+	text-decoration: overline;
+}
+
+#insideCell2:hover {
+	color: #ff00ff;
+}
+
+#insideCell1:hover {
+	color: #00ff00;
+}
+
+#insideCell3:hover {
+	color: #0000ff;
+}
+
+#insideCell4:hover {
+	color: #ff0000;
+}
+
+#insideCell5:hover {
+	color: #00ffff;
+}
+
+#insideCell6:hover {
+	color: #ffff00;
+}
+
+#insideCell7:hover {
+	color: #8a2be2;
+}
+
+#insideCell8:hover {
+	color: #adff2f;
+}
+
+a.specialLink {
+	color: #ffffff;
+	text-decoration: none;
+	cursor: text;
+	transition: 1s;
+}
+
+a.specialLink:hover {
+	color: #ffffff;
+	text-decoration: overline;
+	cursor: text;
+}
+
+a.dropdown1:hover {
+	color: #77ff77;
+	transition: 1s;
+}
+
+a.dropdown2:hover {
+	color: #ff77ff;
+	transition: 1s;
+}
+
+a.dropdown3:hover {
+	color: #7777ff;
+	transition: 1s;
+}
+
+a.dropdown4:hover {
+	color: #ff7777;
+	transition: 1s;
+}
+
+a.dropdown5:hover {
+	color: #77ffff;
+	transition: 1s;
+}
+
+a.dropdown6:hover {
+	color: #ffff77;
+	transition: 1s;
+}
+
+ul.insideTopBar {
+	display: inline-block;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+ul.insideTopBar:after {
+	display: block;
+	clear: both;
+}
+
+li.topBar {
+	display: inline-block;
+	text-align: center;
+	width: 12%;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.subMenu li:hover a, {
+	text-decoration: none;
+}
+
+.subMenu li a {
+	text-decoration: none;
+	color: #ffffff;
+}

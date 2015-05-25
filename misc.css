@@ -1,0 +1,113 @@
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
+h1 {
+	font-family: 'Big Caslon', 'Book Antiqua', 'Palatino Linotype', Georgia, serif;
+	font-size: 39px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 42.9000015258789px;
+}
+
+h3 {
+	font-family: 'Big Caslon', 'Book Antiqua', 'Palatino Linotype', Georgia, serif;
+	font-size: 25px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 27.5px;
+}
+
+button.greeting {
+	height: 30px;
+	width: 12%;
+	font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+	font-size: 16px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+nav.navMenu {
+	width: 100%;
+	margin: 0px auto;
+}
+
+nav.navMenu li {
+	list-style: none;
+}
+
+nav.navMenu a {
+	transition: all linear 0.15s;
+}
+/* top level */
+nav.navMenu > ul > li a {
+
+}
+
+button {
+	border-radius: 2px;
+}
+
+button:hover {
+	opacity: 0.4;
+	transition: 1s;
+	font-family: Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
+}
+
+span {
+	display: table;
+	margin: 0 auto;
+}
+
+table.logoTable {
+	padding: 0px;
+	margin: 0px;
+	border-collapse: collapse;
+}
+
+
+
+table.logoTable td {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+img {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+hr {
+	width: 50%;
+}
+
+progress {
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+
+	color: cyan;
+	background: #ffffff;
+    background-color: #ffffff;
+    border: 1px solid #eeeeee;
+    height: 18px;
+    width: 300px;
+}
+
+progress::-webkit-progress-bar {
+    background: #ffffff;
+}
+
+progress::-webkit-progress-value {
+	background: cyan;
+}
+
+progress::-moz-progress-bar { 
+    background: cyan;	
+}

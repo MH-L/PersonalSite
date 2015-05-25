@@ -1,0 +1,112 @@
+p#myName {
+	font-family: 'Big Caslon', 'Book Antiqua', 'Palatino Linotype', Georgia, serif;
+	font-size: 65px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 70px;
+	margin-top: 0.3em;
+	margin-bottom: 0em;
+}
+
+p#descriptive {
+	font-family: Consolas, monaco, monospace;
+	font-size: 22px;
+	line-height: 10px;
+	margin-bottom: 2em;
+}
+
+p.progressBarFont {
+	font-family: 'Big Caslon', 'Book Antiqua', 'Palatino Linotype', Georgia, serif;
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	margin-bottom: 0.4em;
+	margin-top: 0.4em;
+	width: 200px;
+}
+
+p.insideCellp {
+	margin-top:0em;
+	margin-bottom:0em;
+	/*font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;*/
+	/*font-family: Copperplate, 'Copperplate Gothic Light', fantasy;*/
+	font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+	font-size: 24px;
+	color: #ffffff;
+	line-height: 30px;
+}
+
+p.subTitle {
+	font-family: 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', 
+		Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
+	margin-top: 2em;
+	margin-bottom: 1.2em;
+	font-size: 24px;
+	color: #000000;
+}
+
+p.subTitle.aboutme {
+	margin-top: 2em;
+}
+
+p.subTitle.links {
+	margin-top: 2em;
+	margin-bottom: 1.8em;
+}
+
+p.subTitle.other {
+	margin-top: 1.7em;
+}
+
+p.mainTitle {
+	font-family: 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', 
+		Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
+		margin-top: 2em;
+		margin-bottom: 0.8em;
+		font-size: 30px;
+		text-align: middle;
+}
+
+p.otherContPara {
+	font-family: 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', 
+		Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
+		margin-top: 0.3em;
+		margin-bottom: 0.8em;
+		font-size: 19px;
+		text-align: middle;
+}
+
+p.otherContPara img {
+	height: 1em;
+}
+
+p.insideCellp.dropdownPara {
+	font-size: 20px;
+}
+
+p.insideCellp.dropdownPara.long {
+	font-size: 15px;
+}
+
+p.mat {
+	line-height: 40px;
+	margin-top: 0.4em;
+	margin-bottom: 0.4em;
+	font-family: Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
+	font-size: 23px;
+}
+
+ul.additionalNotes li p, p.selfIntro {
+	font-family: 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', 
+		Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
+		padding-left: 18%;
+		padding-right: 18%;
+		text-align: left;
+	margin-top:1.4em;
+	margin-bottom: 1.4em;
+	font-size: 16px;
+	color: #000000;
+}
+
