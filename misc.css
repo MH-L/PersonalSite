@@ -85,6 +85,11 @@ img {
 
 hr {
 	width: 50%;
+	margin: 0px auto;
+}
+
+hr.insideCellHR {
+	width: 80%;
 }
 
 progress {

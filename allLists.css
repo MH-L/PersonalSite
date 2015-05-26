@@ -5,12 +5,23 @@ ul.additionalNotes {
 ul.subMenu {
 	z-index: -1;
 	opacity: 0;
+	transition: opacity linear 0.20s;
+	position: absolute;
+	top: 100%;
+	width: 12%;
+	box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+    background:#383870;
+    padding:0px 0px;
 }
 
-li.topBar:hover .subMenu {
+li.topBar:hover {
+	background: #303050;
+	transition: linear 1s;
+}
+
+.navMenu li:hover ul {
 	z-index: 1;
 	opacity: 1;
-	transition:opacity linear 1s;
 }
 
 a {
@@ -25,6 +36,14 @@ a.insideCell {
 
 a.insideCell:hover {
 	text-decoration: overline;
+}
+
+a.emptyLink {
+	cursor: text;
+}
+
+a.emptyLink:hover {
+	cursor: text;
 }
 
 #insideCell2:hover {
@@ -102,6 +121,15 @@ a.dropdown6:hover {
 	transition: 1s;
 }
 
+a.dropdownExtra:hover {
+	color: #bc94f1;
+	transition: 1s;
+}
+
+.sub-menu li a:hover {
+    background:#191970;
+}
+
 ul.insideTopBar {
 	display: inline-block;
 	width: 100%;
@@ -120,8 +148,8 @@ li.topBar {
 	width: 12%;
 	margin-left: 0px;
 	margin-right: 0px;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 .subMenu li:hover a, {
@@ -131,4 +159,16 @@ li.topBar {
 .subMenu li a {
 	text-decoration: none;
 	color: #ffffff;
+}
+
+.subMenu li:hover {
+	background: #252585;
+	transition: linear 1s;
+}
+
+.subMenu li {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }

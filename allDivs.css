@@ -40,6 +40,24 @@ div#topbar {
 	box-shadow:0px 1px 3px rgba(0,0,0,0.2);
 }
 
+div#specialDiv {
+	text-align: middle;
+}
+
+div#specialDivForYou {
+	width: 30%;
+	height: 50%;
+}
+
+div.upperDiv {
+	background-image: url("background/background2.jpg");
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 div.topbarCell {
 	text-align: center;
 	height: 30px;
@@ -132,7 +150,7 @@ div.projectsDiv {
 
 div.educationDiv {
 	width: 100%;
-	height: 70%;
+	height: 120%;
 	display: inline-block;
 	background-color: #ffddff;
 }

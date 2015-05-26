@@ -1,6 +1,6 @@
 p#myName {
 	font-family: 'Big Caslon', 'Book Antiqua', 'Palatino Linotype', Georgia, serif;
-	font-size: 65px;
+	font-size: 75px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: normal;
@@ -11,7 +11,7 @@ p#myName {
 
 p#descriptive {
 	font-family: Consolas, monaco, monospace;
-	font-size: 22px;
+	font-size: 25px;
 	line-height: 10px;
 	margin-bottom: 2em;
 }
@@ -28,14 +28,26 @@ p.progressBarFont {
 }
 
 p.insideCellp {
-	margin-top:0em;
-	margin-bottom:0em;
+	margin-top:10px;
+	margin-bottom:10px;
 	/*font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;*/
 	/*font-family: Copperplate, 'Copperplate Gothic Light', fantasy;*/
 	font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
 	font-size: 24px;
 	color: #ffffff;
 	line-height: 30px;
+}
+
+p.sofamore {
+	font-size: 60px;
+	color: #ff0000;
+	font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+}
+
+p.descr {
+	font-size: 20px;
+	color: #ff0000;
+	font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
 }
 
 p.subTitle {
@@ -83,6 +95,8 @@ p.otherContPara img {
 }
 
 p.insideCellp.dropdownPara {
+	margin-bottom: 0px;
+	margin-top: 0px;
 	font-size: 20px;
 }
 
