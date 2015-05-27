@@ -59,6 +59,10 @@ p.subTitle {
 	color: #000000;
 }
 
+p.subTitle.university {
+	font-size: 20px;
+}
+
 p.subTitle.aboutme {
 	margin-top: 2em;
 }
@@ -122,5 +126,13 @@ ul.additionalNotes li p, p.selfIntro {
 	margin-bottom: 1.4em;
 	font-size: 16px;
 	color: #000000;
+}
+
+div.educationDiv ul li {
+	font-family: 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', 
+		Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
+	font-size: 18px;
+	line-height: 20px;
+
 }
 
