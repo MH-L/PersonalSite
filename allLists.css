@@ -172,3 +172,8 @@ li.topBar {
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
+
+.insideAboutMe.coursework li {
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
