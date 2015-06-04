@@ -24,7 +24,7 @@ p.progressBarFont {
 	font-weight: normal;
 	margin-bottom: 0.4em;
 	margin-top: 0.4em;
-	width: 200px;
+	width: 100px;
 }
 
 p.insideCellp {
@@ -124,15 +124,12 @@ ul.additionalNotes li p, p.selfIntro {
 		text-align: left;
 	margin-top:1.4em;
 	margin-bottom: 1.4em;
-	font-size: 16px;
+	font-size: 18px;
 	color: #000000;
 }
 
-div.educationDiv ul li {
-	font-family: 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', 
-		Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
-	font-size: 18px;
-	line-height: 20px;
-
+p.subTitleInside {
+	margin-bottom: 0em;
+	margin-top: 0em;
 }
 

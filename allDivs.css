@@ -11,20 +11,6 @@ div#descriptDiv {
 	top: 110px;
 }
 
-div#marqueeDiv {
-	
-	height: 40px;
-	width: 100%;
-	top: 140px;
-}
-
-div#maintanenceDiv {
-	text-align: center;
-	height: 20%;
-	width: 100%;
-	top: 60%;
-}
-
 div#buttonsDiv {
 	height: 40px;
 	width: 100%;
@@ -141,7 +127,7 @@ div.technicalDiv {
 
 div.experienceDiv {
 	width: 100%;
-	height: 70%;
+	padding-bottom: 60px;
 	display: inline-block;
 	background-color: #f0fff0;
 }
@@ -196,7 +182,7 @@ div.insideAboutMe.educ {
 div.firstCol {
 	width: 50%;
 	float: left;
-	text-align: center;
+	text-align: justify;
 }
 
 div.secondCol {
@@ -208,4 +194,17 @@ div.secondCol {
 div.projectsCardsContainer {
 	width:100%;
 	display: inline-block;
+}
+
+div.messageDiv {
+	width:100%;
+	display: inline-block;
+	background-color: #efefff;
+	padding-bottom: 60px;
+}
+
+div.textareaDiv {
+	width: 50%;
+	margin: 30px auto;
+
 }

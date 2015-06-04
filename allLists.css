@@ -177,3 +177,16 @@ li.topBar {
 	margin-bottom: 8px;
 	margin-top: 8px;
 }
+
+.insideAboutMe.educ li {
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+div.educationDiv ul li {
+	font-family: 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', 
+		Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
+	font-size: 18px;
+	line-height: 20px;
+
+}

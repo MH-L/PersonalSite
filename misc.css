@@ -118,3 +118,34 @@ progress::-webkit-progress-value {
 progress::-moz-progress-bar { 
     background: cyan;	
 }
+
+textarea {
+	margin-top: 50px;
+	width: 60%;
+	height: 200px;
+	margin-bottom: 10px; 
+}
+
+input[type=submit], [type=reset] {
+	/* style the submit button of the text field here. */
+	width: 100px;
+	height: 30px;
+	font-family: 'Big Caslon', 'Book Antiqua', serif;
+	border: 0;
+	outline: 0;
+	background: #88ffff;
+}
+
+input[type=submit]:hover, input[type=reset]:hover {
+	background: #33ffff;
+	transition: 0.5s;
+}
+
+::-moz-focus-inner {
+  border: 0;
+}
+
+.special {
+	margin-bottom: 0px;
+	margin-top: 50px;
+}

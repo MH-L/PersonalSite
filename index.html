@@ -8,6 +8,15 @@
 <link rel="icon" href="icons/website-favicon.jpg" />
 <script src="ajaxjquery.js" type="text/javascript"> </script>
 <script type="text/javascript" src="fundamentals.js"> </script>
+<script src="http://tinymce.cachefly.net/4.1/tinymce.min.js"></script>
+<script>
+	tinymce.init({selector:'textarea', plugins: [
+        "advlist autolink lists link image charmap print preview anchor",
+        "searchreplace visualblocks code fullscreen",
+        "insertdatetime media table contextmenu paste"
+    ],
+    toolbar: "insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image"});
+</script>
 </head>
 <body>
 	<div class="upperDiv">
@@ -224,16 +233,16 @@
 		</div>
 		<div class="projectsCardsContainer">
 			<div class="fourCols">
-				<center> <img src="projects_pics/renju2.jpg" height="300px" /> </center>
+				<center> <img src="projects_pics/renju2.jpg" width="78%" /> </center>
 			</div>
 			<div class="fourCols">
-				<center> <a href="https://github.com/MH-L/TicTacToe--AI"> <img src="projects_pics/tictactoe-illustration.jpg" height="300px" /> </a> </center>
+				<center> <a href="https://github.com/MH-L/TicTacToe--AI"> <img src="projects_pics/tictactoe-illustration.jpg" width="78%" /> </a> </center>
 			</div>
 			<div class="fourCols">
-				<center> <img src="projects_pics/stock_market.jpg" height="300px" /> </center> 
+				<center> <img src="projects_pics/stock_market.jpg" width="78%" /> </center> 
 			</div>
 			<div class="fourCols">
-				<center> <img src="projects_pics/monopoly.jpg" height="300px" /> </center>
+				<center> <img src="projects_pics/monopoly.jpg" width="78%" /> </center>
 			</div>
 		</div>
 		<div class="emptyDiv"> </div>
@@ -249,7 +258,7 @@
 			<center> <p class="subTitle university"> Qingdao No.2 Middle School, Qingdao, China </center>
 			<div class="insideAboutMe educ"> 
 				<ul> 
-					<li> Awarded second price in National Chemistry Olympics. (Ranked top 5%) </li>
+					<li> Awarded the second prize in 2011 National Chemistry Contest for High School Students. (Top 5% among all candidates) </li>
 					<li> Ranked top 20% of all students. (School ranks 19th across China) </li>
 					<li> Graduation date: July, 2012 </li>
 				</ul>
@@ -264,6 +273,7 @@
 					<li> Cummulative Average: 85.2% </li>
 					<li> Average in all Computer Science courses: 86.6% </li>
 					<li> Average in all Math courses: 92.2% </li>
+					<li> On Dean's list for four consecutive semesters </li>
 				</ul>
 			</div>
 		</div>
@@ -271,23 +281,30 @@
 			<p class="subTitle"> Relevant Coursework </p>
 			<div class="insideAboutMe coursework">
 				<ul>
-					<li> Data Structure and Algorithm Design </li>
-					<li> Database Structures and Management </li>
-					<li> Numerical Analysis and Computational Optimization </li>
-					<li> Linear Programming </li>
-					<li> Linear Algebra </li>
-					<li> Logical Circuits Design </li>
-					<li> Software Engineering Projects </li>
-					<li> Software Design and Analysis </li>
-					<li> Introduction to Operating Systems </li>
-					<li> Introduction to Computer Hardware </li>
-					<li> Introduction to Compiler </li>
-					<li> Introduction to Computer Language </li>
-					<li> Probablity </li>
-					<li> Introduction to Statistics </li>
-					<li> Differential Equations </li>
-					<li> Multivariable Calculus </li>
-					<li> Applied Linear Algebra </li>
+					<li> <b> Computer Science </b> </li>
+					<ul>
+						<li> Data Structure and Algorithm Design </li>
+						<li> Database Structures and Management </li>
+						<li> Numerical Analysis and Computational Optimization </li>
+						<li> Linear Programming </li>
+						<li> Linear Algebra </li>
+						<li> Logical Circuits Design </li>
+						<li> Software Engineering Projects </li>
+						<li> Software Design and Analysis </li>
+						<li> Introduction to Operating Systems </li>
+						<li> Introduction to Computer Hardware </li>
+						<li> Introduction to Compiler </li>
+						<li> Introduction to Computer Language </li>
+					</ul>
+					<li> <b> Math </b> </li>
+					<ul>
+						<li> Probablity </li>
+						<li> Introduction to Statistics </li>
+						<li> Differential Calculus and Integral Calculus </li>
+						<li> Differential Equations </li>
+						<li> Multivariable Calculus </li>
+						<li> Applied Linear Algebra </li>
+					</ul>
 				</ul>
 			</div>
 		</div>
@@ -297,9 +314,45 @@
 		<div class="subheader">
 			<span> <p class="mainTitle"> Experience </p> </span> <hr/>
 		</div>
-		<div class="firstCol">
+			<div class="firstCol">
+				<center> <p class="subTitle"> XINZHIWEIYE Computer Company </p> </center>
+				<div class="insideAboutMe educ">
+					<p class="subTitleInside"> Position </p>
+					<ul> <li> Computer Hardware Technician </li> </ul>
+					<p class="subTitleInside"> Responsibility </p>
+					<ul>
+						<li> Oversee the daily performance of computer systems. </li>
+						<li> Enter commands and observe system functioning to verify correct operations and detect errors. </li>
+						<li> Install and perform minor repairs to hardware, software, or peripheral equipment, following design or installation specifications. </li>
+						<li> Communicate with customers when the product cannot be repaired properly. </li>
+					</ul>
+				</div>
+			</div>
+			<div class="secondCol">
+				<center> <p class="subTitle"> Self-Employment </p> </center>
+				<div class="insideAboutMe educ">
+					<p class="subTitleInside"> Position </p>
+					<ul>
+						<li> Computer Science and Math Tutor </li>
+					</ul>
+					<p class="subTitleInside"> Responsibility </p>
+					<ul>
+						<li> Go over course materials with students and answer questions they come up with. </li>
+						<li> Give help and guidence on students' course assignments and projects. </li>
+						<li> Assign homework to students to ensure better learning outcome. </li>
+					</ul>
+				</div>
+			</div>		
+	</div>
+	<div class="messageDiv">
+		<div class="subheader">
+			<span> <p class="mainTitle"> Message </p> </span> <hr/>
 		</div>
-		<div class="secondCol">
+		<div class="textareaDiv">
+			<form method="post">
+			    <center> <textarea name="content" style="width:100%" placeholder="What do you want to say to me?"></textarea> </center>
+			    <center> <input type="submit" class="special"/> <input type="reset" class="special"/> </center>
+			</form>
 		</div>
 	</div>
 	<div id="sidebar">
@@ -355,10 +408,7 @@
 		</nav>
 	</div>
 <center> <div id="specialDivForYou"> </div> </center>
-<div id="maintanenceDiv">
-<h3> <p class="mat"> The site is under maintenance. Sorry for the inconvenience. </p> </h3>
-</div>
-<footer>
+<!-- <footer>
 <div id="buttonsDiv">
 	<center>
 		<button class="greeting" value="Hello!" onclick="onClickGreeting();">Hello!</button>
@@ -367,7 +417,7 @@
 </div>
 <div class="emptyDiv"> </div>
 <div class="emptyDiv"> </div>
-</footer>
+</footer> -->
 <a id="anchor5"> </a>
 </body>
 </html>
