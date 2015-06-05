@@ -8,7 +8,8 @@
 <link rel="icon" href="icons/website-favicon.jpg" />
 <script src="ajaxjquery.js" type="text/javascript"> </script>
 <script type="text/javascript" src="fundamentals.js"> </script>
-<script src="http://tinymce.cachefly.net/4.1/tinymce.min.js"></script>
+<script type="text/javascript" src="formAction.js"> </script>
+<!-- <script src="http://tinymce.cachefly.net/4.1/tinymce.min.js"></script> -->
 <script>
 	tinymce.init({selector:'textarea', plugins: [
         "advlist autolink lists link image charmap print preview anchor",
@@ -98,9 +99,9 @@
 					<div class="emailPhone">
 						<table>
 							<tr> <td> <p class="otherContPara"> <img src="social_logos/email_flat.png" alt="Email Address" /> </p> </td> 
-								<td> <p class="otherContPara"> &nbsp;&nbsp;&nbsp; Primary Email: me1@contactme.com </p> </td> </tr>
+								<td> <p class="otherContPara"> &nbsp;&nbsp;&nbsp; <a href="mailto:922lmh922@gmail.com"> Primary Email: me1@contactme.com </a> </p> </td> </tr>
 							<tr> <td> <p class="otherContPara"> <img src="social_logos/alt_email_flat.jpg" alt="Alt. Email Address" /> </p> </td>
-								<td> <p class="otherContPara"> &nbsp;&nbsp;&nbsp; Alternative Email: me2@contactme.com </p> </td> </tr>
+								<td> <p class="otherContPara"> &nbsp;&nbsp;&nbsp; <a href="mailto:944lmh944@gmail.com"> Alternative Email: me2@contactme.com </a> </p> </td> </tr>
 							<tr> <td> <p class="otherContPara"> <img src="social_logos/phone_flat.jpg" alt="Telephone" /> </p> </td>
 							    <td> <p class="otherContPara"> &nbsp;&nbsp;&nbsp; Telephone: Please ask me for it. </p> </td> </tr>
 							<tr> <td> <p class="otherContPara"> <img src="social_logos/wechat_flat.png" alt="WeChat" /> </p> </td>
@@ -233,13 +234,13 @@
 		</div>
 		<div class="projectsCardsContainer">
 			<div class="fourCols">
-				<center> <img src="projects_pics/renju2.jpg" width="78%" /> </center>
+				<center> <a href="https://github.com/MH-L/Renju-Game"> <img src="projects_pics/renju2.jpg" width="78%" /> </a> </center>
 			</div>
 			<div class="fourCols">
 				<center> <a href="https://github.com/MH-L/TicTacToe--AI"> <img src="projects_pics/tictactoe-illustration.jpg" width="78%" /> </a> </center>
 			</div>
 			<div class="fourCols">
-				<center> <img src="projects_pics/stock_market.jpg" width="78%" /> </center> 
+				<center> <a href="https://github.com/MH-L/Stock-System"> <img src="projects_pics/stock_market.jpg" width="78%" /> </a> </center> 
 			</div>
 			<div class="fourCols">
 				<center> <img src="projects_pics/monopoly.jpg" width="78%" /> </center>
@@ -350,8 +351,11 @@
 		</div>
 		<div class="textareaDiv">
 			<form method="post">
-			    <center> <textarea name="content" style="width:100%" placeholder="What do you want to say to me?"></textarea> </center>
-			    <center> <input type="submit" class="special"/> <input type="reset" class="special"/> </center>
+				<button class="boldButton" type="button"> <b> Bold </b> </button>
+				<button class="italicButton" type="button"> <i> Italic </i> </button>
+				<button class="underlineButton" type="button"> Underline </button>
+			    <center> <div class="editable" id="onlyText"> </div> </center>
+			    <center> <input type="submit" href="#" class="special" value="Submit" /> <input type="reset" class="special"/> </center>
 			</form>
 		</div>
 	</div>
@@ -408,16 +412,6 @@
 		</nav>
 	</div>
 <center> <div id="specialDivForYou"> </div> </center>
-<!-- <footer>
-<div id="buttonsDiv">
-	<center>
-		<button class="greeting" value="Hello!" onclick="onClickGreeting();">Hello!</button>
-		<button class="greeting" value="hello" onclick="anotherOnClick();">hello</button>
-	</center>
-</div>
-<div class="emptyDiv"> </div>
-<div class="emptyDiv"> </div>
-</footer> -->
 <a id="anchor5"> </a>
 </body>
 </html>
