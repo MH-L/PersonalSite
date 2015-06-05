@@ -133,3 +133,11 @@ p.subTitleInside {
 	margin-top: 0em;
 }
 
+p.copyright {
+	margin: 0px;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+	margin: 10px auto;
+}

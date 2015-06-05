@@ -24,6 +24,11 @@ li.topBar:hover {
 	opacity: 1;
 }
 
+.otherContPara a {
+	text-decoration: none;
+	color: #000000;
+}
+
 a {
 	outline: 0;
 }

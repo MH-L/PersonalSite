@@ -50,16 +50,6 @@ nav.navMenu > ul > li a {
 
 }
 
-button {
-	border-radius: 2px;
-}
-
-button:hover {
-	opacity: 0.4;
-	transition: 1s;
-	font-family: Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
-}
-
 span {
 	display: table;
 	margin: 0 auto;
@@ -126,17 +116,22 @@ textarea {
 	margin-bottom: 10px; 
 }
 
-input[type=submit], [type=reset] {
+input[type=submit], [type=reset], button {
 	/* style the submit button of the text field here. */
-	width: 100px;
+	width: 10%;
 	height: 30px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
 	font-family: 'Big Caslon', 'Book Antiqua', serif;
-	border: 0;
+	border: 0px;
 	outline: 0;
 	background: #88ffff;
+	float: left;
 }
 
-input[type=submit]:hover, input[type=reset]:hover {
+input[type=submit]:hover, input[type=reset]:hover, button:hover {
 	background: #33ffff;
 	transition: 0.5s;
 }
@@ -145,7 +140,10 @@ input[type=submit]:hover, input[type=reset]:hover {
   border: 0;
 }
 
-.special {
-	margin-bottom: 0px;
-	margin-top: 50px;
+.underlineButton {
+	text-decoration: underline;
+}
+
+.underlinedTxt {
+	text-decoration: underline;
 }
