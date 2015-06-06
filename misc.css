@@ -142,8 +142,20 @@ input[type=submit]:hover, input[type=reset]:hover, button:hover {
 
 .underlineButton {
 	text-decoration: underline;
+	color: #ffff00;
 }
 
 .underlinedTxt {
 	text-decoration: underline;
+}
+
+.classesProgress td img {
+	width: 60%;
+	margin-right: 20%;
+	margin-left: 20%;
+}
+
+.classesProgress tr {
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
