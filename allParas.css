@@ -79,7 +79,7 @@ p.mainTitle {
 	/*font-family: 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', 
 		Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;*/
 		font-family: 'Open Sans';
-		margin-top: 1em;
+		margin-top: 1.6em;
 		margin-bottom: 0.8em;
 		font-size: 30px;
 		text-align: middle;
@@ -132,10 +132,7 @@ p.subTitleInside {
 }
 
 p.copyright {
-	margin: 0px;
-	position: absolute;
-	bottom: 0px;
-	right: 0px;
-	left: 0px;
-	margin: 10px auto;
+	padding-top: 140px;
+	margin-top: 0em;
+	margin-bottom: 0em;
 }

@@ -64,7 +64,7 @@
 			$(".dropdown2.collapse").click(function() {
 				var $div1 = $(".profileDiv");
 				if ($div1.height() == profileHeight)
-					$div1.animate({opacity: '0', width: '0%', height: '0%'}, 1500);
+					$div1.animate({opacity: '0', width: '0%', height: '0%', padding: '0', margin: '0'}, 1500);
 				curColCount ++;
 				profCount = curColCount;
 				if (profCount == 5 && techCount == 1 && projCount == 3 && educCount == 2 && 
@@ -83,64 +83,64 @@
 
 			$(".dropdown2.expand").click(function() {
 				var $div2 = $(".profileDiv");
-				if (div2.height() != profileHeight)
-					$div2.animate({opacity: '1', width: '100%', height: profileHeight}, 1500);
+				if ($div2.height() != profileHeight)
+					$div2.animate({opacity: '1', width: '100%', height: profileHeight, paddingBottom: '50px'}, 1500);
 				curColCount --;
 				profCount = 0;
 			 });
 
 			$(".dropdown3.collapse").click(function() {
 				var $div3 = $(".technicalDiv");
-				$div3.animate({opacity: '0', width: '0%', height:'0%'}, 1500);
+				$div3.animate({opacity: '0', width: '0%', height:'0%', padding: '0', margin: '0'}, 1500);
 				curColCount ++;
 				techCount = curColCount;
 			 });
 
 			$(".dropdown3.expand").click(function() {
 				var $div4 = $(".technicalDiv");
-				$div4.animate({opacity: '1', width: '100%', height: technicalHeight}, 1500);
+				$div4.animate({opacity: '1', width: '100%', height: technicalHeight, paddingBottom: '50px'}, 1500);
 				curColCount --;
 				techCount = 0;
 			 });
 
 			$(".dropdown4.collapse").click(function() {
 				var $div5 = $(".projectsDiv");
-				$div5.animate({opacity: '0', width: '0%', height: '0%'}, 1500);
+				$div5.animate({opacity: '0', width: '0%', height: '0%', padding: '0', margin: '0'}, 1500);
 				curColCount ++;
 				projCount = curColCount;
 			 });
 
 			$(".dropdown4.expand").click(function() {
 				var $div6 = $(".projectsDiv");
-				$div6.animate({opacity: '1', width: '100%', height: projectsHeight}, 1500);
+				$div6.animate({opacity: '1', width: '100%', height: projectsHeight, paddingBottom: '50px'}, 1500);
 				curColCount --;
 				projCount = 0;
 			 });
 
 			$(".dropdown5.collapse").click(function() {
 				var $div7 = $(".educationDiv");
-				$div7.animate({opacity: '0', width: '0%', height: '0%'}, 1500);
+				$div7.animate({opacity: '0', width: '0%', height: '0%', padding: '0', margin: '0'}, 1500);
 				curColCount ++;
 				educCount = curColCount;
 			 });
 
 			$(".dropdown5.expand").click(function() {
 				var $div8 = $(".educationDiv");
-				$div8.animate({opacity: '1', width: '100%', height: educationHeight}, 1500);
+				$div8.animate({opacity: '1', width: '100%', height: educationHeight, paddingBottom: '50px'}, 1500);
 				curColCount --;
 				educCount = 0;
 			 });
 
 			$(".dropdown6.collapse").click(function() {
 				var $div9 = $(".experienceDiv");
-				$div9.animate({opacity: '0', width: '0%', height: '0%'}, 1500);
+				$div9.animate({opacity: '0', width: '0%', height: '0%', padding: '0', margin: '0'}, 1500);
 				curColCount ++;
 				expeCount = curColCount;
 			 });
 
 			$(".dropdown6.expand").click(function() {
 				var $div10 = $(".experienceDiv");
-				$div10.animate({opacity: '1', width: '100%', height: experienceHeight}, 1500);
+				$div10.animate({opacity: '1', width: '100%', height: experienceHeight, paddingBottom: '50px'}, 1500);
 				curColCount --;
 				expeCount = 0;
 			 });
