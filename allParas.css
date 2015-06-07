@@ -1,5 +1,5 @@
 p#myName {
-	font-family: 'Big Caslon', 'Book Antiqua', 'Palatino Linotype', Georgia, serif;
+	font-family: 'Open Sans';
 	font-size: 75px;
 	font-style: normal;
 	font-variant: normal;
@@ -16,7 +16,7 @@ p#descriptive {
 	margin-bottom: 2em;
 }
 
-p.progressBarFont {
+/*p.progressBarFont {
 	font-family: 'Big Caslon', 'Book Antiqua', 'Palatino Linotype', Georgia, serif;
 	font-size: 18px;
 	font-style: normal;
@@ -25,20 +25,20 @@ p.progressBarFont {
 	margin-bottom: 0.4em;
 	margin-top: 0.4em;
 	width: 100px;
-}
+}*/
 
 p.insideCellp {
 	margin-top:10px;
 	margin-bottom:10px;
 	/*font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;*/
 	/*font-family: Copperplate, 'Copperplate Gothic Light', fantasy;*/
-	font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+	font-family: 'Open Sans';
 	font-size: 24px;
 	color: #ffffff;
 	line-height: 30px;
 }
 
-p.sofamore {
+/*p.sofamore {
 	font-size: 60px;
 	color: #ff0000;
 	font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
@@ -48,12 +48,11 @@ p.descr {
 	font-size: 20px;
 	color: #ff0000;
 	font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
-}
+}*/
 
 p.subTitle {
-	font-family: 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', 
-		Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
-	margin-top: 2em;
+	font-family: 'Open Sans';
+	margin-top: 1em;
 	margin-bottom: 1.2em;
 	font-size: 24px;
 	color: #000000;
@@ -77,20 +76,20 @@ p.subTitle.other {
 }
 
 p.mainTitle {
-	font-family: 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', 
-		Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
-		margin-top: 2em;
+	/*font-family: 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', 
+		Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;*/
+		font-family: 'Open Sans';
+		margin-top: 1em;
 		margin-bottom: 0.8em;
 		font-size: 30px;
 		text-align: middle;
 }
 
 p.otherContPara {
-	font-family: 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', 
-		Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
+	font-family: 'Open Sans';
 		margin-top: 0.3em;
 		margin-bottom: 0.8em;
-		font-size: 19px;
+		font-size: 16px;
 		text-align: middle;
 }
 
@@ -107,24 +106,23 @@ p.insideCellp.dropdownPara {
 p.insideCellp.dropdownPara.long {
 	font-size: 15px;
 }
-
+/*
 p.mat {
 	line-height: 40px;
 	margin-top: 0.4em;
 	margin-bottom: 0.4em;
 	font-family: Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
 	font-size: 23px;
-}
+}*/
 
 ul.additionalNotes li p, p.selfIntro {
-	font-family: 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', 
-		Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
-		padding-left: 18%;
-		padding-right: 18%;
+	font-family: 'Open Sans';
+		padding-left: 10%;
+		padding-right: 10%;
 		text-align: left;
 	margin-top:1.4em;
 	margin-bottom: 1.4em;
-	font-size: 18px;
+	font-size: 16px;
 	color: #000000;
 }
 

@@ -100,7 +100,7 @@ div.emailPhone {
 
 div.profileDiv {
 	width: 100%;
-	background-color: #fff0f5;
+	background-color: #f0f8ff;
 	display: block;
 	float: left;
 }
@@ -122,27 +122,27 @@ div.contactsDiv {
 div.technicalDiv {
 	width: 100%;
 	display: inline-block;
-	background-color: rgb(253,251,239);
+	background-color: #effff6;
 }
 
 div.experienceDiv {
 	width: 100%;
 	padding-bottom: 60px;
 	display: inline-block;
-	background-color: #f0fff0;
+	background-color: #f0f8ff;
 }
 
 div.projectsDiv {
 	width:100%;
 	display: inline-block;
-	background-color: #e0ffff;
+	background-color: #f0f8ff;
 }
 
 div.educationDiv {
 	width: 100%;
 	padding-bottom: 60px;
 	display: inline-block;
-	background-color: #ffddff;
+	background-color: #effff6;
 }
 
 div.box.hidden {
@@ -156,8 +156,7 @@ div.subheader {
 	width:100%;
 	text-align: middle;
 	background-color: rgba(0,0,0,0);
-	font-family: 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', 
-		Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
+	font-family: 'Open Sans';
 		font-size: 30px;
 }
 
@@ -175,7 +174,7 @@ div.insideAboutMe {
 div.insideAboutMe.educ {
 	margin-left: auto;
 	margin-right: auto;
-	width: 60%;
+	width: 70%;
 	text-align: left;
 }
 
@@ -199,7 +198,7 @@ div.projectsCardsContainer {
 div.messageDiv {
 	width:100%;
 	display: inline-block;
-	background-color: #efefff;
+	background-color: #effff6;
 	padding-bottom: 60px;
 }
 
@@ -220,5 +219,5 @@ div.editable {
 footer {
 	height: 180px;
 	position: relative;
-	background: #fafad6;
+	background: #F0F8FF;
 }
