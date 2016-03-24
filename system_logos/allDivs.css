@@ -1,0 +1,192 @@
+div#nameDiv {
+	text-align: center;
+	margin: 50px;
+}	
+
+div#descriptDiv {
+	text-align: center;
+	
+	height: 35px;
+	width: 100%;
+	top: 110px;
+}
+
+div#marqueeDiv {
+	
+	height: 40px;
+	width: 100%;
+	top: 140px;
+}
+
+div#maintanenceDiv {
+	text-align: center;
+	height: 20%;
+	width: 100%;
+	top: 60%;
+}
+
+div#buttonsDiv {
+	height: 40px;
+	width: 100%;
+	top: 33%;
+}
+
+div#topbar {
+	position: fixed;
+	background-color: #191970;
+	width: 100%;
+	top: 0;
+	left: 0;
+	box-shadow:0px 1px 3px rgba(0,0,0,0.2);
+}
+
+div#specialDiv {
+	text-align: middle;
+}
+
+div#specialDivForYou {
+	width: 30%;
+	height: 50%;
+}
+
+div.upperDiv {
+	background-image: url("background/background2.jpg");
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+div.fourCols {
+	width: 25%;
+	float: left;
+}
+
+div.topbarCell {
+	text-align: center;
+	height: 30px;
+	width: 12%;
+	position: relative;
+	display: inline-block;
+}
+
+div.socialLogoDiv {
+	display: table;
+	margin: auto;
+	vertical-align: middle;
+	overflow: hidden;
+}
+
+div.otherContacts {
+	text-align: center;
+}
+
+div.emptyDiv {
+	width: 100%;
+	height: 30px;
+}
+
+div.ssspecial {
+	visibility: hidden;
+	height: 25px;
+	width:25px;
+}
+
+div.projectsCard {
+
+}
+
+div.zOne {
+	z-index: 100;
+	position: relative;
+}
+
+div.zTwo {
+	z-index: 200;
+	position: relative;
+}
+
+div.emailPhone {
+	text-align: left;
+	margin-left: 25%;
+}
+
+div.profileDiv {
+	width: 100%;
+	background-color: #fff0f5;
+	display: block;
+	float: left;
+}
+
+div.aboutme {
+	width: 50%;
+	float: left;
+	overflow: hidden;
+	background-color: rgba(0,0,0,0);
+}
+
+div.contactsDiv {
+	width: 50%;
+	float: left;
+	overflow: hidden;
+	background-color: rgba(0,0,0,0);
+}
+
+div.technicalDiv {
+	width: 100%;
+	display: inline-block;
+	background-color: rgb(253,251,239);
+}
+
+div.experienceDiv {
+	width: 100%;
+	height: 70%;
+	display: inline-block;
+	background-color: #f0fff0;
+}
+
+div.projectsDiv {
+	width:100%;
+	display: inline-block;
+	background-color: #e0ffff;
+}
+
+div.educationDiv {
+	width: 100%;
+	height: 120%;
+	display: inline-block;
+	background-color: #ffddff;
+}
+
+div.box.hidden {
+	visibility: hidden;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+div.subheader {
+	width:100%;
+	text-align: middle;
+	background-color: rgba(0,0,0,0);
+	font-family: 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', 
+		Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
+		font-size: 30px;
+}
+
+div.insideAboutMe {
+	margin: 0 auto;
+}
+
+div.firstCol {
+	width: 50%;
+	float: left;
+	text-align: middle;
+}
+
+div.secondCol {
+	width: 50%;
+	float: left;
+	text-align: middle;
+}

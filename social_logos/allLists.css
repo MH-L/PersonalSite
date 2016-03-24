@@ -1,7 +1,5 @@
 ul.additionalNotes {
-/*	list-style-type: none;*/
-    width: 75%;
-    margin: auto;
+	list-style-type: none;
 }
 
 ul.subMenu {
@@ -24,11 +22,6 @@ li.topBar:hover {
 .navMenu li:hover ul {
 	z-index: 1;
 	opacity: 1;
-}
-
-.otherContPara a {
-	text-decoration: none;
-	color: #000000;
 }
 
 a {
@@ -178,22 +171,4 @@ li.topBar {
 	margin-bottom: 0px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-}
-
-.insideAboutMe.coursework li {
-	margin-bottom: 8px;
-	margin-top: 8px;
-}
-
-.insideAboutMe.educ li {
-	margin-top: 8px;
-	margin-bottom: 8px;
-	font-family: 'Open Sans';
-}
-
-div.educationDiv ul li {
-	font-family: 'Open Sans';
-	font-size: 16px;
-	line-height: 20px;
-
 }
